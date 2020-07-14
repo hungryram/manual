@@ -959,6 +959,18 @@ a.descending {
     margin-top: 100px;
 }
 
+/* BLOG LIST */
+
+p.blog-summary {
+    line-height: 1.5;
+    color: #313131;
+    font-size: 14px;
+}
+
+p.blog-summary a {
+    font-size: inherit;
+}
+
 /* AGENT LIST PAGE */
 
 .agent-list-content small {
