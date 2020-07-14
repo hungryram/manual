@@ -129,7 +129,7 @@ fields:
   config:
     required: false
     options:
-    - Acreage/Land
+    - Acreage and Land
     - Commercial
     - Condo
     - Townhome

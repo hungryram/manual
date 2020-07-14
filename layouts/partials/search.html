@@ -1,6 +1,6 @@
 <div class="column">
     <div class="box">
-      <h2 class="subtitle is-6">Search by City</h2>
+      <h2 class="subtitle is-6">Filter City</h2>
         <ul>
             {{ range $city, $taxonomy := .Site.Taxonomies.city }}
           <li>
@@ -11,7 +11,7 @@
         </ul>
     </div>
     <div class="box">
-      <h2 class="subtitle is-6">Search by State</h2>
+      <h2 class="subtitle is-6">Filter State</h2>
         <ul>
             {{ range $state, $taxonomy := .Site.Taxonomies.state }}
           <li>
@@ -22,7 +22,7 @@
         </ul>
     </div>
     <div class="box">
-      <h2 class="subtitle is-6">Search by Zip Code</h2>
+      <h2 class="subtitle is-6">Filter Zip Code</h2>
         <ul>
             {{ range $zip, $taxonomy := .Site.Taxonomies.zip }}
           <li>
@@ -37,7 +37,7 @@
           <ul>
               {{ range $prop, $taxonomy := .Site.Taxonomies.property }}
             <li>
-              <i class="fas fa-angle-right" style="margin-right: 10px"></i><a href="/property{{ $prop | urlize | relURL }}" class="secondary-btn">{{ $prop }} ({{ $taxonomy.Count }})</a>
+              <i class="fas fa-angle-right" style="margin-right: 10px"></i><a href="/property{{ $prop | urlize | relURL }}" class="secondary-btn" style="text-transform:capitalize">{{ $prop }} ({{ $taxonomy.Count }})</a>
             </li>
             {{end}}
     

@@ -17,7 +17,7 @@
               <div class="content single-listing-head">
                 <h1 class="title is-4">{{ .Params.short_description }}</h1>
                 <span style="{{ safeHTMLAttr (printf "background-color: %s" $.Site.Data.design.colors.button_background_colors) }}">{{ .Params.status }}</span>
-                <address><i class="fas fa-map-marker-alt"></i> {{ .Params.address.address }} {{ .Params.address.city }}, {{ .Params.address.state }} {{ .Params.address.zip_code }} </address><br>
+                <address><i class="fas fa-map-marker-alt"></i> {{ .Params.Title }} {{ .Params.city }}, {{ .Params.state }} {{ .Params.zip }} </address><br>
              </div>
             </div>
       </div>
@@ -154,7 +154,7 @@
           <h2 class="title is-6"><i class="fas fa-th-large"></i>Details</h2>
           <hr>
           <ul>
-            {{ with .Params.details.property_type }}<li><strong>Property type</strong><span>{{ . }}</span></li>{{ end }}
+            {{ with .Params.property }}<li><strong>Property type</strong><span>{{ . }}</span></li>{{ end }}
             {{ with .Params.details.mls_number }}<li><strong>Property ID</strong><span>{{ . }}</span></li>{{ end }}
             {{ with .Params.status }}<li><strong>Status</strong><span>{{ . }}</span></li>{{ end }}
             {{ with lang.NumFmt 0 .Params.weight }}<li><strong>Price</strong><span>${{ . }}</span></li>{{ end }}
@@ -167,6 +167,7 @@
           </ul>
       </div>
 
+      {{ if .Params.utilities_and_features.interior_details.show_interior_details }}
       <div class="box single-features-list">
         <h2 class="title is-6"><i class="fas fa-th-large"></i>Property Interior</h2>
         <hr>
@@ -203,7 +204,10 @@
         {{end}}
         </ul>
       </div>
+      {{ else }}
+      {{ end }}
 
+      {{ if .Params.utilities_and_features.exterior.show_exterior_details }}
       <div class="box single-features-list">
         <h2 class="title is-6"><i class="fas fa-th-large"></i>Property Exterior</h2>
         <hr>
@@ -232,7 +236,10 @@
         {{end}}
         </ul>
       </div>
+      {{ else }}
+      {{ end }}
 
+      {{ if .Params.utilities_and_features.community_features.show_community_details }}
       <div class="box single-features-list">
         <h2 class="title is-6"><i class="fas fa-th-large"></i>Community Details</h2>
         <hr>
@@ -253,6 +260,9 @@
         {{end}}
         </ul>
       </div>
+      {{ else }}
+      {{ end }}
+
       {{ if .Params.tools.matterport_link }}
       <div class="box vt-single">
         <h2 class="title is-6">Virtual Tour</h2>
