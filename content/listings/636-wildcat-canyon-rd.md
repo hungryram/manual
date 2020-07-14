@@ -1,11 +1,12 @@
 +++
 city = "yorbie"
 featured_listing = false
+property = ""
 short_description = "Guaranteed Modern"
 state = "Alabama"
 status = "Active"
 title = "636 WILDCAT CANYON RD"
-property = "test"
+type = ""
 url = ""
 weight = 456532132
 zip = "92886"
@@ -15,15 +16,15 @@ city = "345345"
 state = "Alabama"
 zip_code = 23434
 [details]
-bathrooms = 0
-bedrooms = 0
-garage = 0
-hoa = 0
-lot_size = 0
+bathrooms = ""
+bedrooms = ""
+garage = ""
+hoa = ""
+lot_size = ""
 mls_number = ""
 property_type = "Single Family"
-square_footage = 0
-year_built = 0
+square_footage = ""
+year_built = ""
 [listing_agent]
 listing_agent = []
 [photos]
@@ -41,14 +42,17 @@ youtube_link = ""
 [utilities_and_features.community_features]
 additional_community_details = []
 community_features_choice = []
+show_community_details = false
 [utilities_and_features.exterior]
 additional_exterior_details = []
 exterior_details = []
 exterior_roof = []
+show_exterior_details = false
 [utilities_and_features.interior_details]
 additional_interior_details = []
 interior_appliances = []
 interior_flooring = []
-interior_rooms = []
+interior_rooms = ["Steam Room", "Master Bath", "Family Room"]
+show_interior_details = true
 
 +++
