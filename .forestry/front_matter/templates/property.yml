@@ -26,6 +26,11 @@ fields:
       file: 
       path: 
   label: State
+- name: zip
+  type: text
+  config:
+    required: false
+  label: Zip Code
 - name: short_description
   type: text
   config:
