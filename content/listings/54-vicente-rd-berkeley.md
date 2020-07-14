@@ -1,7 +1,7 @@
 +++
 city = "Los Angeles"
-featured_listing = false
-property = "Land"
+featured_listing = true
+property = ""
 short_description = "Luxury Listing"
 state = "Arkansas"
 status = "Pending"
