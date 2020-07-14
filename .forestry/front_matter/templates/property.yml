@@ -36,7 +36,7 @@ fields:
   config:
     required: true
     max: 30
-  label: Short Description
+  label: Short Title
   description: 'Example: Luxury Listing'
 - name: status
   type: select
@@ -74,6 +74,19 @@ fields:
     max: 
     step: 
     required: true
+- name: type
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Acreage/Land
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Property Type
 - name: address
   type: field_group
   config: {}
