@@ -5,6 +5,7 @@ short_description = "Guaranteed Modern"
 state = "Alabama"
 status = "Active"
 title = "636 WILDCAT CANYON RD"
+type = "Acreage/Land"
 url = ""
 weight = 456532132
 zip = "92886"
