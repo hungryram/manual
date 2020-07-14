@@ -1,4 +1,4 @@
-baseURL = "https://simplere.netlify.app"
+baseURL = "https://nonidx.netlify.app"
 languageCode = "en-us"
 summarylength = 20
 [[menu.main]]
