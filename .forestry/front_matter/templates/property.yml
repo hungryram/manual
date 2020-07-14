@@ -13,6 +13,19 @@ fields:
   config:
     required: false
   label: City
+- name: state
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Alabama
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: State
 - name: short_description
   type: text
   config:
