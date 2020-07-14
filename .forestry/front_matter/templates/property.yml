@@ -6,8 +6,13 @@ fields:
   type: text
   config:
     required: true
-  label: Property Title
+  label: Address
   description: Enter the address as the title
+- name: city
+  type: text
+  config:
+    required: false
+  label: City
 - name: short_description
   type: text
   config:
