@@ -2,6 +2,7 @@
 city = "yorbie"
 featured_listing = false
 short_description = "Guaranteed Modern"
+state = "Alabama"
 status = "Active"
 title = "636 WILDCAT CANYON RD"
 url = ""
