@@ -7,6 +7,7 @@ status = "Active"
 title = "636 WILDCAT CANYON RD"
 url = ""
 weight = 456532132
+zip = "92886"
 [address]
 address = "12323"
 city = "345345"
