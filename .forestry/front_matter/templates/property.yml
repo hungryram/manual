@@ -130,101 +130,27 @@ fields:
     required: false
     options:
     - Acreage/Land
+    - Commercial
+    - Condo
+    - Townhome
+    - Co-op
+    - Duplex
+    - Farmland
+    - Farmranch
+    - Cabin
+    - Mobile Home
+    - Multi-Family
+    - New Construction
+    - Rental
+    - Single Family
+    - Time Share
+    - Vacation Home
     source:
       type: simple
       section: 
       file: 
       path: 
   label: Property Type
-- name: address
-  type: field_group
-  config: {}
-  fields:
-  - name: address
-    type: text
-    config:
-      required: true
-    label: Address
-    description: Include Apt/Unit if any.
-  - name: city
-    type: text
-    config:
-      required: true
-    label: City
-  - name: state
-    type: select
-    default: []
-    config:
-      required: true
-      options:
-      - Alabama
-      - Alaska
-      - Arizona
-      - Arkansas
-      - California
-      - Colorado
-      - Connecticut
-      - Delaware
-      - Florida
-      - Georgia
-      - Hawaii
-      - Idaho
-      - Illinois
-      - Indiana
-      - Iowa
-      - Kansas
-      - Kentucky
-      - Louisiana
-      - Maine
-      - Maryland
-      - Massachusetts
-      - Michigan
-      - Minnesota
-      - Mississippi
-      - Missouri
-      - Montana
-      - Nebraska
-      - Nevada
-      - New Hampshire
-      - New Jersey
-      - New Mexico
-      - New York
-      - North Carolina
-      - North Dakota
-      - Ohio
-      - Oklahoma
-      - Oregon
-      - Pennsylvania
-      - Rhode Island
-      - South Carolina
-      - South Dakota
-      - Tennessee
-      - Texas
-      - Utah
-      - Vermont
-      - Virginia
-      - Washington
-      - West Virginia
-      - Wisconsin
-      - Wyoming
-      source:
-        type: simple
-        section: 
-        file: 
-        path: 
-    label: State
-  - name: zip_code
-    type: number
-    label: Zip Code
-    description: ''
-    default: 0
-    required: true
-    config:
-      min: 
-      max: 99999
-      step: 
-      required: true
-  label: Listing Address
 - name: listing_agent
   type: field_group
   config: {}
@@ -248,34 +174,6 @@ fields:
   type: field_group
   config: {}
   fields:
-  - name: property_type
-    type: select
-    default: Single Family
-    config:
-      required: true
-      options:
-      - Acreage/Land
-      - Commercial
-      - Condo
-      - Townhome
-      - Co-op
-      - Duplex
-      - Farmland
-      - Farmranch
-      - Cabin
-      - Mobile Home
-      - Multi-family
-      - New Construction
-      - Rental
-      - Single Family
-      - Time Share
-      - Vacation Home
-      source:
-        type: simple
-        section: 
-        file: 
-        path: 
-    label: Property Type
   - name: mls_number
     type: text
     config:
