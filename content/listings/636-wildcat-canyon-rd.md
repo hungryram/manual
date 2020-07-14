@@ -1,0 +1,50 @@
++++
+featured_listing = false
+short_description = "Guaranteed Modern"
+status = "Active"
+title = "636 WILDCAT CANYON RD"
+url = ""
+weight = 456532132
+[address]
+address = "12323"
+city = "345345"
+state = "Alabama"
+zip_code = 23434
+[details]
+bathrooms = 0
+bedrooms = 0
+garage = 0
+hoa = 0
+lot_size = 0
+mls_number = ""
+property_type = "Single Family"
+square_footage = 0
+year_built = 0
+[listing_agent]
+listing_agent = []
+[photos]
+gallery = ["/uploads/shutterstock_549055441.jpg", "/uploads/whiteinterior.jpg"]
+main_photo = "/uploads/shutterstock_683283169.jpg"
+[search_engine_optimization]
+meta_description = ""
+meta_title = ""
+[tools]
+file_attachments = []
+matterport_link = ""
+open_house_date = "No Open House Available"
+open_house_details = ""
+youtube_link = ""
+[utilities_and_features.community_features]
+additional_community_details = []
+community_features_choice = []
+[utilities_and_features.exterior]
+additional_exterior_details = []
+exterior_details = []
+exterior_roof = []
+[utilities_and_features.interior_details]
+additional_interior_details = []
+interior_appliances = []
+interior_flooring = []
+interior_rooms = []
+
++++
