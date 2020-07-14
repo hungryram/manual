@@ -14,6 +14,13 @@ sections:
   label: Design
 - type: heading
   label: Default Pages
+- type: directory
+  path: content/listings
+  label: Listings
+  create: documents
+  match: "**/*"
+  templates:
+  - property
 - type: document
   path: content/contact/_index.md
   label: Contact
