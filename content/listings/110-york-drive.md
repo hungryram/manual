@@ -1,6 +1,6 @@
 +++
 city = "Yorbie"
-featured_listing = false
+featured_listing = true
 property = "Condo"
 short_description = "Luxury Listing"
 state = "Arizona"
