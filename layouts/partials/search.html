@@ -32,5 +32,16 @@
   
         </ul>
     </div>
+    <div class="box">
+        <h2 class="subtitle is-6">Search by Property Type</h2>
+          <ul>
+              {{ range $prop, $taxonomy := .Site.Taxonomies.property }}
+            <li>
+              <i class="fas fa-angle-right" style="margin-right: 10px"></i><a href="/property{{ $prop | urlize | relURL }}" class="secondary-btn">{{ $prop }} ({{ $taxonomy.Count }})</a>
+            </li>
+            {{end}}
+    
+          </ul>
+      </div>
   </div>
   
