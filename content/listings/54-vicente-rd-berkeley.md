@@ -1,12 +1,7 @@
 +++
 city = "Los Angeles"
-<<<<<<< HEAD
 featured_listing = false
 property = "Land"
-=======
-featured_listing = true
-property = "Acreage/Land"
->>>>>>> 726de7241be335552dcc1bcf9de769a225c43415
 short_description = "Luxury Listing"
 state = "Arkansas"
 status = "Pending"
